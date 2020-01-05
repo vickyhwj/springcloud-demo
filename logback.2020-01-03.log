@@ -1,0 +1,364 @@
+23:17:21.284 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$44b6ecde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:17:22.612 logback [main] INFO  com.dreamer.Application - No active profile set, falling back to default profiles: default
+23:17:23.201 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+23:17:23.211 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+23:17:23.344 logback [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=eb76f7df-56c5-3234-bd03-d3bc9c67f9e7
+23:17:23.516 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$44b6ecde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:17:23.775 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2103 (http)
+23:17:23.786 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2103"]
+23:17:23.793 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:17:23.793 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+23:17:23.943 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:17:23.943 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1317 ms
+23:17:24.112 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:17:24.112 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:17:24.121 logback [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1953bc95
+23:17:25.471 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:17:25.688 logback [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+23:17:25.750 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:17:25.750 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:17:25.905 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+23:17:27.425 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:17:27.487 logback [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 20 endpoint(s) beneath base path '/actuator'
+23:17:27.579 logback [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+23:17:27.634 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+23:17:27.939 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+23:17:27.939 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+23:17:28.052 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+23:17:28.052 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+23:17:28.237 logback [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+23:17:28.363 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+23:17:28.363 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+23:17:28.363 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+23:17:28.363 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+23:17:28.363 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+23:17:28.363 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+23:17:28.363 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+23:17:28.518 logback [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+23:17:28.522 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+23:17:28.529 logback [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+23:17:28.535 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1578064648534 with initial instances count: 1
+23:17:28.539 logback [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-CONSUMER-RIBBON-HYSTRIX with eureka with status UP
+23:17:28.541 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1578064648540, current=UP, previous=STARTING]
+23:17:28.548 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103: registering service...
+23:17:28.558 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2103"]
+23:17:28.584 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103 - registration status: 204
+23:17:28.591 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2103 (http) with context path ''
+23:17:28.592 logback [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2103
+23:17:28.594 logback [main] INFO  com.dreamer.Application - Started Application in 10.055 seconds (JVM running for 11.304)
+23:17:29.092 logback [RMI TCP Connection(11)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:17:29.092 logback [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:17:29.103 logback [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+23:18:05.899 logback [hystrix-ConsumerService-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:18:05.925 logback [hystrix-ConsumerService-1] INFO  c.n.u.c.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-eureka-client
+23:18:05.926 logback [hystrix-ConsumerService-1] INFO  c.n.loadbalancer.BaseLoadBalancer - Client: eureka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+23:18:05.931 logback [hystrix-ConsumerService-1] INFO  c.n.l.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+23:18:05.950 logback [hystrix-ConsumerService-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:18:05.951 logback [hystrix-ConsumerService-1] INFO  c.n.l.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client eureka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[localhost:2001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:2001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@5a925de9
+23:18:06.936 logback [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:20:44.840 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fa6d27c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:20:46.156 logback [main] INFO  com.dreamer.Application - No active profile set, falling back to default profiles: default
+23:20:46.754 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+23:20:46.763 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+23:20:46.896 logback [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=eb76f7df-56c5-3234-bd03-d3bc9c67f9e7
+23:20:47.070 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fa6d27c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:20:47.350 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2103 (http)
+23:20:47.363 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2103"]
+23:20:47.370 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:20:47.370 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+23:20:47.534 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:20:47.535 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1365 ms
+23:20:47.710 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:20:47.710 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:20:47.720 logback [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@73c48264
+23:20:49.084 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:20:49.299 logback [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+23:20:49.363 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:20:49.363 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:20:49.525 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+23:20:51.057 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:20:51.117 logback [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 20 endpoint(s) beneath base path '/actuator'
+23:20:51.206 logback [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+23:20:51.267 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+23:20:51.593 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+23:20:51.593 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+23:20:51.701 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+23:20:51.701 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+23:20:51.903 logback [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+23:20:52.099 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+23:20:52.099 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+23:20:52.099 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+23:20:52.099 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+23:20:52.099 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+23:20:52.099 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+23:20:52.099 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+23:20:52.264 logback [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+23:20:52.267 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+23:20:52.269 logback [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+23:20:52.272 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1578064852271 with initial instances count: 2
+23:20:52.274 logback [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-CONSUMER-RIBBON-HYSTRIX with eureka with status UP
+23:20:52.274 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1578064852274, current=UP, previous=STARTING]
+23:20:52.277 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103: registering service...
+23:20:52.290 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2103"]
+23:20:52.315 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103 - registration status: 204
+23:20:52.318 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2103 (http) with context path ''
+23:20:52.319 logback [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2103
+23:20:52.320 logback [main] INFO  com.dreamer.Application - Started Application in 10.11 seconds (JVM running for 11.231)
+23:20:53.313 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:20:53.314 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:20:53.325 logback [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+23:20:53.765 logback [hystrix-ConsumerService-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:20:53.791 logback [hystrix-ConsumerService-1] INFO  c.n.u.c.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-eureka-client
+23:20:53.792 logback [hystrix-ConsumerService-1] INFO  c.n.loadbalancer.BaseLoadBalancer - Client: eureka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+23:20:53.797 logback [hystrix-ConsumerService-1] INFO  c.n.l.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+23:20:53.817 logback [hystrix-ConsumerService-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:20:53.818 logback [hystrix-ConsumerService-1] INFO  c.n.l.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client eureka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[localhost:2001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:2001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@999404b
+23:20:54.800 logback [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:26:36.822 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f67277ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:26:38.138 logback [main] INFO  com.dreamer.Application - No active profile set, falling back to default profiles: default
+23:26:38.724 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+23:26:38.735 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+23:26:38.891 logback [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=eb76f7df-56c5-3234-bd03-d3bc9c67f9e7
+23:26:39.063 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f67277ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:26:39.317 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2103 (http)
+23:26:39.331 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2103"]
+23:26:39.339 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:26:39.339 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+23:26:39.487 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:26:39.487 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1336 ms
+23:26:39.671 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:26:39.671 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:26:39.680 logback [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1d3c112a
+23:26:41.037 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:26:41.249 logback [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+23:26:41.326 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:26:41.326 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:26:41.485 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+23:26:43.008 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:26:43.064 logback [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 20 endpoint(s) beneath base path '/actuator'
+23:26:43.151 logback [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+23:26:43.211 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+23:26:43.537 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+23:26:43.537 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+23:26:43.656 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+23:26:43.656 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+23:26:43.863 logback [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+23:26:43.984 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+23:26:43.985 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+23:26:43.985 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+23:26:43.985 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+23:26:43.985 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+23:26:43.985 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+23:26:43.985 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+23:26:44.147 logback [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+23:26:44.151 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+23:26:44.153 logback [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+23:26:44.158 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1578065204157 with initial instances count: 2
+23:26:44.160 logback [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-CONSUMER-RIBBON-HYSTRIX with eureka with status UP
+23:26:44.160 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1578065204160, current=UP, previous=STARTING]
+23:26:44.162 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103: registering service...
+23:26:44.177 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2103"]
+23:26:44.197 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103 - registration status: 204
+23:26:44.206 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2103 (http) with context path ''
+23:26:44.207 logback [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2103
+23:26:44.208 logback [main] INFO  com.dreamer.Application - Started Application in 9.969 seconds (JVM running for 10.994)
+23:26:44.716 logback [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:26:44.717 logback [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:26:44.733 logback [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+23:27:00.932 logback [hystrix-ConsumerService-2] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:27:00.961 logback [hystrix-ConsumerService-2] INFO  c.n.u.c.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-eureka-client
+23:27:00.961 logback [hystrix-ConsumerService-2] INFO  c.n.loadbalancer.BaseLoadBalancer - Client: eureka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+23:27:00.967 logback [hystrix-ConsumerService-2] INFO  c.n.l.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+23:27:00.990 logback [hystrix-ConsumerService-2] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:27:00.992 logback [hystrix-ConsumerService-2] INFO  c.n.l.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client eureka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[localhost:2001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:2001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@526d12b9
+23:27:07.934 logback [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:28:20.909 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$37db6acb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:28:22.254 logback [main] INFO  com.dreamer.Application - No active profile set, falling back to default profiles: default
+23:28:22.833 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+23:28:22.841 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+23:28:22.999 logback [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=eb76f7df-56c5-3234-bd03-d3bc9c67f9e7
+23:28:23.232 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$37db6acb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:28:23.493 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2103 (http)
+23:28:23.505 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2103"]
+23:28:23.511 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:28:23.512 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+23:28:23.666 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:28:23.666 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1399 ms
+23:28:23.828 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:28:23.828 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:28:23.837 logback [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@88b76f2
+23:28:25.192 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:28:25.447 logback [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+23:28:25.515 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:28:25.515 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:28:25.699 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+23:28:27.269 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:28:27.325 logback [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 20 endpoint(s) beneath base path '/actuator'
+23:28:27.413 logback [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+23:28:27.447 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+23:28:27.769 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+23:28:27.770 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+23:28:27.907 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+23:28:27.907 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+23:28:28.109 logback [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+23:28:28.225 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+23:28:28.225 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+23:28:28.225 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+23:28:28.225 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+23:28:28.225 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+23:28:28.225 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+23:28:28.225 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+23:28:28.387 logback [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+23:28:28.391 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+23:28:28.394 logback [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+23:28:28.399 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1578065308397 with initial instances count: 2
+23:28:28.401 logback [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-CONSUMER-RIBBON-HYSTRIX with eureka with status UP
+23:28:28.401 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1578065308401, current=UP, previous=STARTING]
+23:28:28.404 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103: registering service...
+23:28:28.419 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2103"]
+23:28:28.442 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103 - registration status: 204
+23:28:28.449 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2103 (http) with context path ''
+23:28:28.450 logback [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2103
+23:28:28.451 logback [main] INFO  com.dreamer.Application - Started Application in 10.458 seconds (JVM running for 11.618)
+23:28:28.955 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:28:28.955 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:28:28.971 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+23:28:54.317 logback [hystrix-ConsumerService-2] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:28:54.347 logback [hystrix-ConsumerService-2] INFO  c.n.u.c.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-eureka-client
+23:28:54.348 logback [hystrix-ConsumerService-2] INFO  c.n.loadbalancer.BaseLoadBalancer - Client: eureka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+23:28:54.353 logback [hystrix-ConsumerService-2] INFO  c.n.l.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+23:28:54.374 logback [hystrix-ConsumerService-2] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:28:54.375 logback [hystrix-ConsumerService-2] INFO  c.n.l.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client eureka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[localhost:2001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:2001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2d2652ba
+23:29:27.701 logback [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:32:05.208 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7587746] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:32:06.527 logback [main] INFO  com.dreamer.Application - No active profile set, falling back to default profiles: default
+23:32:07.092 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+23:32:07.100 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+23:32:07.234 logback [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=eb76f7df-56c5-3234-bd03-d3bc9c67f9e7
+23:32:07.407 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7587746] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:32:07.693 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2103 (http)
+23:32:07.705 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2103"]
+23:32:07.712 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:32:07.712 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+23:32:07.860 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:32:07.860 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1318 ms
+23:32:08.031 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:32:08.032 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:32:08.041 logback [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@79b18230
+23:32:09.393 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:32:09.610 logback [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+23:32:09.674 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:32:09.674 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:32:09.831 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+23:32:11.362 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:32:11.416 logback [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 20 endpoint(s) beneath base path '/actuator'
+23:32:11.524 logback [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+23:32:11.556 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+23:32:11.864 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+23:32:11.864 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+23:32:11.974 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+23:32:11.974 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+23:32:12.169 logback [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+23:32:12.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+23:32:12.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+23:32:12.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+23:32:12.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+23:32:12.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+23:32:12.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+23:32:12.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+23:32:12.456 logback [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+23:32:12.459 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+23:32:12.462 logback [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+23:32:12.467 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1578065532465 with initial instances count: 2
+23:32:12.469 logback [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-CONSUMER-RIBBON-HYSTRIX with eureka with status UP
+23:32:12.469 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1578065532469, current=UP, previous=STARTING]
+23:32:12.473 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103: registering service...
+23:32:12.485 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2103"]
+23:32:12.515 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103 - registration status: 204
+23:32:12.516 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2103 (http) with context path ''
+23:32:12.517 logback [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2103
+23:32:12.518 logback [main] INFO  com.dreamer.Application - Started Application in 9.547 seconds (JVM running for 10.691)
+23:32:13.358 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:32:13.359 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:32:13.384 logback [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+23:32:42.323 logback [hystrix-ConsumerService-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:32:42.349 logback [hystrix-ConsumerService-1] INFO  c.n.u.c.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-eureka-client
+23:32:42.350 logback [hystrix-ConsumerService-1] INFO  c.n.loadbalancer.BaseLoadBalancer - Client: eureka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+23:32:42.358 logback [hystrix-ConsumerService-1] INFO  c.n.l.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+23:32:42.378 logback [hystrix-ConsumerService-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:32:42.379 logback [hystrix-ConsumerService-1] INFO  c.n.l.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client eureka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[localhost:2001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:2001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@12596f8a
+23:32:43.361 logback [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:35:25.154 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4aee8d59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:35:26.469 logback [main] INFO  com.dreamer.Application - No active profile set, falling back to default profiles: default
+23:35:27.039 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+23:35:27.047 logback [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+23:35:27.179 logback [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=eb76f7df-56c5-3234-bd03-d3bc9c67f9e7
+23:35:27.360 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4aee8d59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:35:27.637 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 2103 (http)
+23:35:27.648 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2103"]
+23:35:27.655 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:35:27.656 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+23:35:27.818 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:35:27.818 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1335 ms
+23:35:27.984 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:35:27.984 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:35:27.993 logback [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@581b1c08
+23:35:29.360 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:35:29.587 logback [main] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+23:35:29.657 logback [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+23:35:29.657 logback [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23:35:29.814 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+23:35:31.337 logback [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+23:35:31.392 logback [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 20 endpoint(s) beneath base path '/actuator'
+23:35:31.477 logback [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+23:35:31.538 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+23:35:31.856 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+23:35:31.856 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+23:35:31.975 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+23:35:31.975 logback [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+23:35:32.171 logback [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+23:35:32.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+23:35:32.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+23:35:32.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+23:35:32.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+23:35:32.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+23:35:32.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+23:35:32.292 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+23:35:32.447 logback [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+23:35:32.450 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+23:35:32.452 logback [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+23:35:32.455 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1578065732454 with initial instances count: 2
+23:35:32.457 logback [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-CONSUMER-RIBBON-HYSTRIX with eureka with status UP
+23:35:32.457 logback [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1578065732457, current=UP, previous=STARTING]
+23:35:32.459 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103: registering service...
+23:35:32.473 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2103"]
+23:35:32.492 logback [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_EUREKA-CONSUMER-RIBBON-HYSTRIX/localhost:eureka-consumer-ribbon-hystrix:2103 - registration status: 204
+23:35:32.503 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 2103 (http) with context path ''
+23:35:32.504 logback [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 2103
+23:35:32.506 logback [main] INFO  com.dreamer.Application - Started Application in 9.943 seconds (JVM running for 10.929)
+23:35:32.892 logback [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:35:32.892 logback [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:35:32.927 logback [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 35 ms
+23:35:41.760 logback [hystrix-ConsumerService-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:35:41.788 logback [hystrix-ConsumerService-1] INFO  c.n.u.c.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-eureka-client
+23:35:41.789 logback [hystrix-ConsumerService-1] INFO  c.n.loadbalancer.BaseLoadBalancer - Client: eureka-client instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+23:35:41.796 logback [hystrix-ConsumerService-1] INFO  c.n.l.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+23:35:41.816 logback [hystrix-ConsumerService-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:35:41.818 logback [hystrix-ConsumerService-1] INFO  c.n.l.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client eureka-client initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=eureka-client,current list of Servers=[localhost:2001],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:2001;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@7df53051
+23:35:42.800 logback [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty - Flipping property: eureka-client.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+23:40:32.298 logback [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+23:45:32.301 logback [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+23:50:32.302 logback [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+23:55:32.303 logback [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

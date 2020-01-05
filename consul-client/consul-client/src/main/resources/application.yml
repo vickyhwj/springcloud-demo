@@ -1,0 +1,13 @@
+###服务端口号
+server:
+  port: 8508
+spring:
+  application:
+    name: consul-client
+####consul注册中心地址
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:  ##表示服务地址 服务所在主机ip
+        hostname: 127.0.0.1

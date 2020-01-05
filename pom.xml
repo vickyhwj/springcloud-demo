@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.dreamer.demo.springcloud</groupId>
+  <artifactId>springcloud-demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>springcloud-demo</name>
+  <description>springcloud demo</description>
+  
+  	<modules>
+		<module>eureka-client</module>
+		<module>eureka-server</module>
+		<module>eureka-consumer</module>
+		<module>eureka-consumer-ribbon</module>
+		<module>eureka-consumer-feign</module>
+		<module>config-server-git</module>
+		<module>config-repo</module>
+	    <module>api-gateway-zuul</module>
+		<module>config-client</module>
+		<module>config-client-eureka</module>
+		<module>config-server-eureka</module>
+		<module>eureka-consumer-ribbon-hystrix</module>
+		<module>hystrix-dashboard</module>
+		<module>sleuth-trace-1</module>
+		<module>sleuth-trace-2</module>
+		<module>turbine</module>
+		<module>zipkin-server</module>
+  	</modules>
+</project>
